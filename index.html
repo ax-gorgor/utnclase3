@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+  <form> 
+
+
+
+<h1>Registro de Usuario</h1>
+<br/>
+
+
+<label for="nombre" >
+    Nombre Completo:
+</label>
+<br/>
+<input type="text" id="nombre" name="nombre" minlength="3" maxlength="15" placeholder="ingresa tu nombre" required>
+
+<br/>
+<label for="email" >
+    Correo eletronico:
+</label>
+<br/>
+<input type="email" id="email" name="email" placeholder="nombre@nombre.com" required>
+
+
+<br/>
+<label for="password" >
+    Contraseña:
+</label>
+<br/>
+<input type="password" id="password" name="password" required>
+
+<br/>
+<br/>
+
+<span>que lenguaje dominás ?</span>
+
+<br/>
+
+<label for="HTML" >
+    HTML
+</label>
+
+<input type="radio" id="HTML" name="lenguaje" required>
+
+
+
+<label for="CSS" >
+    CSS
+</label>
+
+<input type="radio" id="CSS" name="lenguaje">
+
+
+
+<label for="JS" >
+    JS
+</label>
+
+<input type="radio" id="JS" name="lenguaje">
+
+<br/>
+<br/>
+<input type="checkbox" id="checkbox" name="checkbox" required>
+<label for="checkbox" >
+    Acepto términos y condiciones
+</label>
+<br/>
+<br/>
+
+
+<label for="pais" >País:</label>
+<select name="pais" id="pais" required>
+<option value="" selected disabled>No seleccionado</option>
+<option value="AR">Argentina</option>
+<option value="BR">Brasil</option>
+<option value="UY">Uruguay</option>
+</select>
+
+<br/>
+<br/>
+
+<button type="submit">Enviar</button>
+</form> 
+
+<a href="./pages/home.html">volver a la página principal</a>
+
+</body>
+</html>
